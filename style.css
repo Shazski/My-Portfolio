@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    background-color: #1f242d !important;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.first-section{
+    background-color: #1f242d;
+    height: 100rem;
+    width: 100em;
+}
+
+@media (max-width:991px) {
+    .first-section h1{
+        font-size:50px !important;
+    }
+}
+
+@media(max-width:964px) {
+    
+}
+
+
+@media (max-width:574px) {
+    .first-section h2,.first-section h1,.first-section .social-media-icons{
+        font-size: 20px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width:574px){
+    .download,.hire{
+        height: 20px;
+        width: 130px;
+        font-size: 5px;
+        align-items: center;
+        justify-content: center;
+        margin-left: 160px;
+    }
+}
+@media (min-width:574px){
+    .download::after{
+        content: "CV";
+    }
+}
+
+.main{
+    background-color: #1f242d;
+}
+
+.download,.hire{
+    background-color: #04eeff;
+    border-radius: 80px !important;
+    height: 35px;
+    text-align: center;
+}
+.container .first-section-content{
+    line-height: 50px;
+    margin-top: 140px;
+}
+.navbar-nav >.active > a{
+    color: #04eeff !important;
+}
+
+.navbar-nav >.active > a:hover{
+    background-color: rgb(66, 66, 66);
+    border-radius: 50px;
+}
+
+.nav-link:hover{
+transition: 1s ease;
+border-bottom: 1px solid #04eeff;
+}
+
+.card{
+    background-color: #2d313a !important;
+    color: white !important;
+    text-transform: uppercase;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: monospace;
+    font-size:smaller !important;
+}
+.card:hover{
+    transition: .1s ease-in;
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: rgb(22, 204, 180) !important;
+    color: rgb(0, 0, 0) !important;
+}
+@media (max-width:574px){
+    #service.card{
+        width: 400px !important;
+        color: red !important;
+    }
+}
+
+.project-img{
+    opacity: 1;
+}
+.project-img:hover{
+    opacity: 0.3;
+    cursor: pointer;
+    transition: 1s ease;
+    transform: scale(1.1);
+}
+
+
